@@ -28,16 +28,36 @@ This project simulates a video translation backend by providing a **Status API s
 
 1. Clone the Repository
 
-```shell
-git clone https://github.com/your-username/video_translation_client.git
-cd video_translation_client
-```
+    ```shell
+    git clone https://github.com/your-username/video_translation_client.git
+    cd video_translation_client
+    ```
 
-2. Install Dependencies
+2. Create a virtual environment
 
-```shell
-uv sync
-```
+    ```shell
+    uv venv
+    ```
+
+3. Activate the virtual environment
+
+-   On macOS/Linux:
+
+    ```shell
+    source .venv/bin/activate
+    ```
+
+-   On Windows:
+
+    ```shell
+    .\.venv\Scripts\Activate.ps1
+    ```
+
+4. Install Dependencies
+
+    ```shell
+    uv sync
+    ```
 
 ## Usage
 
