@@ -59,6 +59,8 @@ This project simulates a video translation backend by providing a **Status API s
     uv sync
     ```
 
+**Note**: Always activate the virtual environment before running commands like `uv sync` or `pytest`.
+
 ## Usage
 
 ### Quick Start
@@ -142,4 +144,5 @@ Run tests using `pytest`
 
 -   Python
 -   [uv](https://docs.astral.sh/uv/)
+-   [loguru](https://loguru.readthedocs.io/en/stable/overview.html)
 -   pytest
